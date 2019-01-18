@@ -1,5 +1,8 @@
 ### Multiprocessing in Python
 
+
+https://docs.python.org/3.4/library/multiprocessing.html?highlight=process
+
 `multiprocessing` module has classes you can import specifically like
 
 * Pool,
@@ -50,3 +53,7 @@ Another great use for Pool is its map which allows you to call the function many
         p4 = Pool()
         r4 = p4.map(f, [1,2,3])
         print r4
+
+
+
+multiprocessing.Manager()
